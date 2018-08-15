@@ -1,0 +1,124 @@
+[
+    {
+        "nombre": "Shimaya Ramen",
+        "distrito": "Pueblo Libre",
+        "dirección": "Av del rio 608 Pueblo Libre, Lima, Peru",
+        "tipo": "comida japonesa",
+        "precio base": 12,
+        "site": "www.facebook.com/pg/Shimaya.Ramen",
+        "descripción": "BIENVENIDOS A SHIMAYA 島屋 !!! Un lugar cálido donde podrán disfrutar los mejores y más populares platos de la gastronomía japonesa.",
+        "image": "../data/restaurantesLima/shimaya.png"
+    
+    },
+    {
+        "nombre": "Ohashi",
+        "distrito": "Pueblo Libre",
+        "dirección": "Av Bolívar 305 Esquina con la av del Rio Pueblo Libre",
+        "tipo": "comida japonesa",
+        "precio base": 14,
+        "site": "www.facebook.com/pg/ohashimakidelivery",
+        "descripción": "Con una nueva propuesta ahora en pueblo libre les ofrecemos toda tipo de platos japoneses como Makis, Sashimi, nigiri y una variedad de platos tradicionales nos puede llamar al 5923284.",
+        "image": "../data/restaurantesLima/ohashi.jpg"
+        
+    },
+    {
+        "nombre": "Asakusa Sushi Bar",
+        "distrito": "San Borja",
+        "dirección": "Av. Javier Prado Este, 2994 San Borja",
+        "tipo": "comida japonesa",
+        "precio base": 20,
+        "site": "https://www.facebook.com/pg/asakusa/",
+        "descripción": "Comida japonesa fusión... una experiencia más allá de los sentidos.",
+        "image": "../data/restaurantesLima/asakusa.png"
+    },
+    {
+        "nombre": "Streed Burguer",
+        "distrito": "Miraflores",
+        "dirección": "Calle san martin 459 - Miraflores",
+        "tipo": "comida rápida",
+        "precio base": 12,
+        "site": "https://www.facebook.com/pg/streetburgerlima",
+        "descripción": "Street Burger te ofrece una carta de Hamburguesas con los mejores insumos en carnes Angus Americana, Argentina y Peruana artesanal.",
+        "image": "../data/restaurantesLima/streetburguer.jpg"
+    },
+    {
+        "nombre": "Tip Top Miraflores",
+        "distrito": "Miraflores",
+        "dirección": "Calle Berlin 200 - Miraflores",
+        "tipo": "comida rápida",
+        "precio base": 7,
+        "site": "www.facebook.com/pg/Shimaya.Ramen",
+        "descripción": "En nuestro restaurante podrás encontrar la tradicional salchipapa Tip Top, la gran variedad de sanguches, junto con ricos jugos, milkshakes y helados.",
+        "image": "../data/restaurantesLima/tiptop.jpg" 
+    },
+    {
+        "nombre": "Rincón Cervecero",
+        "distrito": "Cercado de Lima",
+        "dirección": "Jr. de la Unión 1045, Lima",
+        "tipo": "restobar",
+        "precio base": 12,
+        "site": "https://www.facebook.com/pg/miRinconCervecero",
+        "descripción": "Aquí encontrarás una de las mejores cervezas del mundo, la cerveza peruana, en originales presentaciones, además de variados tragos y cockteles.Una taberna de estilo europeo que te ofrece un ambiente único en el Perú",
+        "image": "../data/restaurantesLima/rinconcervecero.jpg" 
+    },
+    {
+        "nombre": "Barbarian Bar",
+        "distrito": "Miraflores",
+        "dirección": "Miraflores: Calle Manuel Bonilla 108",
+        "tipo": "restobar",
+        "precio base": 20,
+        "site": "https://www.facebook.com/pg/BarBarianPeru",
+        "descripción": "Nuestros bares Barbarian! 23 cervezas de barril, más de 30 botellas y la mejor comida para estar con tus patas!!",
+        "image": "../data/restaurantesLima/barbarian.jpg" 
+    },
+    {
+        "nombre": "Canta ranita",
+        "distrito": "Barranco",
+        "dirección": "Jr. Union 147 Lima",
+        "tipo": "Cevichería",
+        "precio base": 7,
+        "site": "https://www.facebook.com/elcapullitocr/",
+        "descripción": "Cuna del ceviche apaltado, el guardia imperial y las conchitas sopleteadas. Santuario de fútbol con la mejor vibra y el mejor ambiente.",
+        "image": "../data/restaurantesLima/cantaranita.jpg" 
+    },
+    {
+        "nombre": "Puerto 33",
+        "distrito": "SMP",
+        "dirección": "Av.las almendras con jr.El Anis",
+        "tipo": "Cevichería",
+        "precio base": 9,
+        "site": "https://www.facebook.com/pg/santiagocruztorre/",
+        "descripción": "Restaurante de comida regional norteña y criolla peruana. El inconfundible sazón de el norte en independencia y SMP. #elpuertoestucasa",
+        "image": "../data/restaurantesLima/puerto33.jpg" 
+    },
+    {
+        "nombre": "Marejada",
+        "distrito": "San Miguel",
+        "dirección": "Avenida Faucett 315, San Miguel Lima",
+        "tipo": "Cevichería",
+        "precio base": 12,
+        "site": "www.facebook.com/pg/Shimaya.Ramen",
+        "descripción": "Ceviche, comida japonesa, y más",
+        "image": "../data/restaurantesLima/marejada.jpg" 
+    },
+    {
+        "nombre": "Manos criollas",
+        "distrito": "San Miguel",
+        "dirección": "Av. La Mar 2269, San Miguel 15088",
+        "tipo": "comida criolla",
+        "precio base": 10,
+        "site": "https://www.facebook.com/pg/restaurantemanoscriollas",
+        "descripción": "Les ofrecemos lo más exquisitos platos de la comida criolla, pastas, pescados y mariscos. Además, nuestro local está inspirado en lo Rústico y tradicional.",
+        "image": "../data/restaurantesLima/manoscriollas.jpg" 
+    },
+    {
+        "nombre": "Pizza Raúl",
+        "distrito": "San Miguel",
+        "dirección": "Av. Elmer Fauccet 475",
+        "tipo": "comida criolla",
+        "precio base": 12,
+        "site": "https://www.facebook.com/PizzaRaulOficial/",
+        "descripción": "Pizzas y comida italiana",
+        "image": "../data/restaurantesLima/pizzaraul.jpg"
+    }
+]

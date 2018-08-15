@@ -19,6 +19,9 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+.logo-in-page {
+    width: 200px;
+}
 
 @keyframes logo {
     from {
