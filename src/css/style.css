@@ -1,0 +1,40 @@
+.green {
+    background: #006666;
+}
+
+/***SPLASH** */
+
+.splash-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    width: 250px;
+    animation-name: logo;
+    animation-duration: .4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes logo {
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+/***W3SCHOOLS** */
+body,
+h1,
+h2,
+h3,h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
