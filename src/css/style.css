@@ -43,3 +43,6 @@ h6 {
 }
 
 /* SELECTS */
+.select {
+    height: 50px;
+}
