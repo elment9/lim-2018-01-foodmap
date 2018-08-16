@@ -34,9 +34,13 @@ restaurantContainer.innerHTML +=
         <p>
             <b>${restaurant.nombre}</b>
         </p>
-        <p>holi</p>
+        <button class ="action-button shadow animate green-button" id= "sweet" onClick = "swal('${restaurant.nombre}', 'Dirección:${restaurant.descripción} ');">Ver más</button> 
     </div>
 
+    <div>
+   
+    </div>
+</div>
 `
     });
 }
@@ -63,3 +67,5 @@ const getData = (searchByDiscrit) => {
 
 }
 
+
+    // swal("Here's the title!", "...and here's the text!");

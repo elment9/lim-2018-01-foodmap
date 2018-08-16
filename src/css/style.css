@@ -46,3 +46,41 @@ h6 {
 .input-styles {
     height: 50px;
 }
+
+/* BUTTONS */
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 30px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 10px;
+	
+	font-size: 15px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+
+.green-button
+{
+	background-color: #006666;
+	
+	
+}
+
+
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
