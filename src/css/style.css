@@ -1,9 +1,11 @@
 .green {
     background: #006666;
 }
+.font-green {
+    color: #006666;
+}
 
 /***SPLASH** */
-
 .splash-container {
     position: absolute;
     left: 50%;
@@ -41,20 +43,17 @@ h5,
 h6 {
     font-family: "Raleway", sans-serif;
 }
-
 /* INPUTS */
 .input-styles {
     height: 50px;
 }
 
 /* BUTTONS */
-
 .animate
 {
 	transition: all 0.1s;
 	-webkit-transition: all 0.1s;
 }
-
 .action-button
 {
 	position: relative;
@@ -67,17 +66,12 @@ h6 {
 	color: #FFF;
 	text-decoration: none;	
 }
-
-
 .green-button
 {
 	background-color: #006666;
 	
 	
 }
-
-
-
 .action-button:active
 {
 	transform: translate(0px,5px);
