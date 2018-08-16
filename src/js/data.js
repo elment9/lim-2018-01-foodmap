@@ -10,9 +10,9 @@ const restaurantContainer = document.querySelector('.restaurants-container');
 const inputSearch = document.getElementById('search-by-district');
 const searchButton = document.getElementById('search-button');
 //Modal
-let modal = document.getElementById('simpleModal');
+// let modal = document.getElementById('simpleModal');
 const modalBtn = document.getElementById('modalBtn');
-// const closeBtn = document.getElementsByClassName('closeBtn')[0];
+const closeBtn = document.getElementsByClassName('closeBtn')[0];
 
 // SPLASH
 mainContainer.style.display = 'none';
@@ -50,24 +50,26 @@ searchButton.addEventListener('click', findFood);
 
 //Modal
 
-// Function to open modal
-const openModal = () => {
-    modal.style.display = 'block';
-}
+// Abrir modal
+// const openModal = () => {
+//     modal.style.display = 'block';
+// }
 
-// Function to close modal
-const closeModal = () => {
-    modal.style.display = 'none';
-}
+// Cerrar modal
+// const closeModal = () => {
+//     modal.style.display = 'none';
+// }
 
-// Function to close modal if outside click
-const outsideClick = (e) => {
-    if (e.target == modal) {
-        modal.style.display = 'none';
-    }
-}
+// Cerrar modal fuera de clic
+// const outsideClick = (e) => {
+//     if (e.target == modal) {
+//         modal.style.display = 'none';
+//     }
+// }
 
-// modalBtn.addEventListener('click', openModal);
+// modalBtn.addEventListener('click', ()=> 
+// alert('hola')
+// );
 // closeBtn.addEventListener('click', closeModal);
-window.addEventListener('click', outsideClick);
+// window.addEventListener('click', outsideClick);
 

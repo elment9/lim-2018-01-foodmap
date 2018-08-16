@@ -33,22 +33,20 @@ printRestaurant = (allRestaurants) => {
         <p>
             <b>${restaurant.nombre}</b>
         </p>
-        <button class ="action-button shadow animate green-button" id="modalBtn" oneClick ="openModal()">Ver más</button> 
+        <button class ="action-button shadow animate green-button" onclick="document.getElementById('${restaurant.nombre}').style.display='block'">Ver más</button> 
     </div>
 
     <div id="${restaurant.nombre}" class="modal">
     <div class="modal-content">
       <div class="modal-header">
-          <span class="closeBtn">&times;</span>
-          <h2>Modal Header</h2>
+          <span onclick="document.getElementById('${restaurant.nombre}').style.display='none'" class="closeBtn">&times;</span>
+          <h2>${restaurant.nombre}</h2>
       </div>
       <div class="modal-body">
-        <p>Hello...I am a modal</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab.</p>
+        <p>${restaurant.descripción}</p>
+        <p><b>Dirección: </b>${restaurant.dirección}</p>
       </div>
-      <div class="modal-footer">
-        <h3>Modal Footer</h3>
-      </div>
+
     </div>
   </div>
 
