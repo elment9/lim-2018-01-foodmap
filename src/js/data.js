@@ -18,8 +18,8 @@ const hideSplash = () => {
     splashContainer.style.display = 'none';
     mainContainer.style.display = 'block';
     body.classList.remove('green');
-    body.classList.add('w3-light-grey', 'w3-content');
-    // body.classList.add(' ');
+    body.classList.add('w3-light-grey');
+
 }
 
 setTimeout(hideSplash, 2000);
@@ -35,8 +35,11 @@ const w3_close = () => {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
 }
+
 //FUNCIONALIDAD
-// searchButton.addEventListener('click', () => {
-//     searchByDiscrit = inputSearch.value;
-//     getData(searchByDiscrit)
-// })
+const findFood = () => {
+    searchByDiscrit = inputSearch.value;
+    console.log(searchByDiscrit);
+    getData(searchByDiscrit)
+}
+searchButton.addEventListener('click', findFood);
