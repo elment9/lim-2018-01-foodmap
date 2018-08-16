@@ -34,7 +34,7 @@ restaurantContainer.innerHTML +=
         <p>
             <b>${restaurant.nombre}</b>
         </p>
-        <p>${restaurant.descripción}</p>
+        <p>holi</p>
     </div>
 
 `
