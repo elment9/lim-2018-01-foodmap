@@ -25,22 +25,33 @@ window.onload = () => { getData('') }
 
 printRestaurant = (allRestaurants) => {
     allRestaurants.forEach(restaurant => {
-restaurantContainer.innerHTML += 
-`
-
+        restaurantContainer.innerHTML +=
+            `
 <div class="w3-third w3-container w3-margin-bottom">
     <img src="${restaurant.image}" alt="${restaurant.nombre}" style="width:100%" class="w3-hover-opacity">
     <div class="w3-container w3-white">
         <p>
             <b>${restaurant.nombre}</b>
         </p>
-        <button class ="action-button shadow animate green-button" id= "sweet" onClick = "swal('${restaurant.nombre}', 'Dirección:${restaurant.descripción} ');">Ver más</button> 
+        <button class ="action-button shadow animate green-button" id="modalBtn" oneClick ="openModal()">Ver más</button> 
     </div>
 
-    <div>
-   
+    <div id="${restaurant.nombre}" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>Modal Header</h2>
+      </div>
+      <div class="modal-body">
+        <p>Hello...I am a modal</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo commodi ab.</p>
+      </div>
+      <div class="modal-footer">
+        <h3>Modal Footer</h3>
+      </div>
     </div>
-</div>
+  </div>
+
 `
     });
 }
