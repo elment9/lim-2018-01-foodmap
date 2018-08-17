@@ -55,9 +55,6 @@ printRestaurant = (allRestaurants) => {
 }
 
 
-
-
-
 const getData = (searchByDiscrit) => {
 
 
