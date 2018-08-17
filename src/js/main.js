@@ -58,7 +58,7 @@ printRestaurant = (allRestaurants) => {
 const getData = (searchByDiscrit) => {
 
 
-    fetch('/data/limaRestaurant.json')
+    fetch('https://elment9.github.io/lim-2018-01-foodmap/data/limaRestaurant.json')
         .then(response =>
             response.json())
         .then(result => {
